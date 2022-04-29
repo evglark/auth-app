@@ -1,10 +1,10 @@
 # Google authorization module
 
-Enter in your .env
+Put in your .env file
 - GOOGLE_CLIENT_ID
 - GOOGLE_CLIENT_SECRET
-- PASSPORT_REDIRECT_SECRET
-- LOGIN_REDIRECT
+- FRONTEND_REDIRECT
+- PERMITTED_EMAIL (separated by commas)
 
 For running authorization app:
 ```bash

@@ -7,6 +7,7 @@ const http = require('http');
  */
 
 const port = normalizePort('3000');
+console.log('PORT:', port);
 app.set('port', port);
 
 /**
