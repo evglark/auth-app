@@ -3,8 +3,7 @@
   "version": "2.0.0",
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www",
-    "demo-start": "node ./demo/bin/www"
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "@google-cloud/secret-manager": "^3.12.0",
@@ -18,8 +17,5 @@
     "http-errors": "~1.6.3",
     "passport": "^0.5.2",
     "passport-google-oidc": "^0.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
