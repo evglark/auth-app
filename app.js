@@ -13,6 +13,7 @@ const authApp = (app = express(), prefix = '/') => {
   app.use(passport.authenticate('session'));
 
   app.use(prefix, authGoogle2Router);
+  console.log('x');
 
   return app;
 }
